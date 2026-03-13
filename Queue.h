@@ -58,7 +58,7 @@ Queue::~Queue(){
     cout<<"Clearing queue"<<endl;
     while(size>0)
     {
-      cout<<"dequeing";
+      //cout<<"dequeing";
       dequeue();
     }
 }
